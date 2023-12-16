@@ -1,0 +1,48 @@
+cd /Users/vanivineelaaremanda/Hadoop-Map-Reduce-and-Hive--Car-Accidents-Analysis/CODE_FINAL
+
+Enter each of the folder and run following commands
+
+Java -verion
+1.8
+Hadoop version - Hadoop - 3.3.6 if not edit in the below files
+
+vanivineelaaremanda@Vanis-MacBook-Pro bin % code ~/.zprofile
+vanivineelaaremanda@Vanis-MacBook-Pro bin % code ~/.zshrc   
+vanivineelaaremanda@Vanis-MacBook-Pro bin % source ~/.zshrc
+vanivineelaaremanda@Vanis-MacBook-Pro bin % echo $HADOOP_HOME                                           
+/Users/vanivineelaaremanda/hadoop-3.3.6/
+vanivineelaaremanda@Vanis-MacBook-Pro bin % hadoop version 
+Hadoop 3.3.6
+Source code repository https://github.com/apache/hadoop.git -r 1be78238728da9266a4f88195058f08fd012bf9c
+Compiled by ubuntu on 2023-06-18T08:22Z
+Compiled on platform linux-x86_64
+Compiled with protoc 3.7.1
+From source with checksum 5652179ad55f76cb287d9c633bb53bbd
+This command was run using /Users/vanivineelaaremanda/hadoop-3.3.6/share/hadoop/common/hadoop-common-3.3.6.jar
+
+
+hadoop fs -mkdir /project_272
+
+hadoop fs -chmod 777 /project_272
+
+
+./hdfs dfs -copyFromLocal /Users/vanivineelaaremanda/H
+
+
+
+
+compile source files and create class files
+ javac -classpath $HADOOP_CLASSPATH ./*.java -d .
+
+ to create jar file
+ jar -cvf Q1.jar -C . com
+
+ running hadoop with that jar file and specifying i/ps and o/ps path
+hadoop jar Q2.jar com.hadoop.finalProject.Q2.DriverClass /project_272 /Results/Q2
+
+view o/p results file
+hadoop fs -cat /Results/Q6/part-r-00000
+
+cd /Users/vanivineelaaremanda/Hadoop-Map-Reduce-and-Hive--Car-Accidents-Analysis/CODE_FINAL/
+cd /Users/vanivineelaaremanda/hadoop-3.3.6/etc/hadoop 
+

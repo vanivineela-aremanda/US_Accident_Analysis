@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Q1 - Total Number of accidents on Left and Right side" isTestSource="false" packagePrefix="com.hadoop.finalProject.Q1" />
+      <sourceFolder url="file://$MODULE_DIR$/Q2 - Weekday Analysis  Total Number of accidents" isTestSource="false" packagePrefix="com.hadoop.finalProject.Q2" />
+      <sourceFolder url="file://$MODULE_DIR$/Q3 - Monthly Analysis  Total Number of accidents" isTestSource="false" packagePrefix="com.hadoop.finalProject.Q3" />
+      <sourceFolder url="file://$MODULE_DIR$/Q5 - Hourly Analysis  Total Number of accidents" isTestSource="false" packagePrefix="com.hadoop.finalProject.Q5" />
+      <sourceFolder url="file://$MODULE_DIR$/Q6 - State Analysis  Total Number of accidents" isTestSource="false" packagePrefix="com.hadoop.finalProject.Q6" />
+      <sourceFolder url="file://$MODULE_DIR$/Q9 - Percentage Accidents vs Proximity" isTestSource="false" packagePrefix="com.hadoop.finalProject.Q9" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
